@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IWI",
+    "IOI",
+    " G "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "tag": "fabric:glass/white"
+    },
+    "O": {
+      "item": "minecraft:observer"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "advancedperipherals:memory_card"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "CAC",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "tag": "fabric:storage_blocks/redstone"
+    },
+    "A": {
+      "item": "advancedperipherals:peripheral_casing"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "advancedperipherals:redstone_integrator"
+  }
+}

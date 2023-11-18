@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model":  "advancedperipherals:block/inventory_manager"}
+  }
+}
