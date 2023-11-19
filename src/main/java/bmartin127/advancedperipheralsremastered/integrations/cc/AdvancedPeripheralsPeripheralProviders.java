@@ -1,4 +1,4 @@
-package name.modid.integrations.cc;
+package bmartin127.advancedperipheralsremastered.integrations.cc;
 
 
 import dan200.computercraft.ComputerCraft;
@@ -11,12 +11,12 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.BlockState;
-import name.modid.AdvancedPeripheralsConfig;
-import name.modid.common.blocks.blockentities.GeoScannerBlockEntity;
-import name.modid.common.peripherals.GeoScannerPeripheral;
+import bmartin127.advancedperipheralsremastered.AdvancedPeripheralsConfig;
+import bmartin127.advancedperipheralsremastered.common.blocks.blockentities.GeoScannerBlockEntity;
+import bmartin127.advancedperipheralsremastered.common.peripherals.GeoScannerPeripheral;
 
 
-import name.modid.common.setup.Blocks;
+import bmartin127.advancedperipheralsremastered.common.setup.Blocks;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

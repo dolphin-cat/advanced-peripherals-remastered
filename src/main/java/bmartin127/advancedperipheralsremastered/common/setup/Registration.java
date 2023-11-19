@@ -1,6 +1,6 @@
-package name.modid.common.setup;
-import name.modid.common.setup.Blocks;
-import name.modid.integrations.cc.AdvancedPeripheralsPeripheralProviders;
+package bmartin127.advancedperipheralsremastered.common.setup;
+import bmartin127.advancedperipheralsremastered.common.setup.Blocks;
+import bmartin127.advancedperipheralsremastered.integrations.cc.AdvancedPeripheralsPeripheralProviders;
 
 
 public class Registration {

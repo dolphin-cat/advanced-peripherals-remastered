@@ -3,20 +3,20 @@
 	"id": "advancedperipherals",
 	"version": "${version}",
 	"name": "advancedperipherals",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "advancedperipherals ported to fabric",
 	"authors": [
-		"Me!"
+		"bmartin127"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/bmartin127/advanced-peripherals-remastered"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/advancedperipherals/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.modid.Advancedperipherals"
+			"bmartin127.advancedperipheralsremastered.Advancedperipherals"
 		]
 	},
 	"mixins": [
