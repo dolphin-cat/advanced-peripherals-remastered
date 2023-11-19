@@ -1,4 +1,4 @@
-package bmartin127.advanced-peripherals-remastered.mixin;
+package bmartin127.advancedperipheralsremastered.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

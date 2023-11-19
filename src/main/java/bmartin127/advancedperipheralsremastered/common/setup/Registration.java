@@ -1,6 +1,6 @@
-package bmartin127.advanced-peripherals-remastered.common.setup;
-import bmartin127.advanced-peripherals-remastered.common.setup.Blocks;
-import bmartin127.advanced-peripherals-remastered.integrations.cc.AdvancedPeripheralsPeripheralProviders;
+package bmartin127.advancedperipheralsremastered.common.setup;
+import bmartin127.advancedperipheralsremastered.common.setup.Blocks;
+import bmartin127.advancedperipheralsremastered.integrations.cc.AdvancedPeripheralsPeripheralProviders;
 
 
 public class Registration {

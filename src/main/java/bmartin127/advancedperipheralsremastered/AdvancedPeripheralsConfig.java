@@ -1,4 +1,4 @@
-package bmartin127.advanced-peripherals-remastered;
+package bmartin127.advancedperipheralsremastered;
 
 import com.github.imifou.jsonschema.module.addon.annotation.JsonSchema;
 
