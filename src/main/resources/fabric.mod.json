@@ -19,9 +19,6 @@
 			"bmartin127.advancedperipheralsremastered.Advancedperipherals"
 		]
 	},
-	"mixins": [
-		"advancedperipherals.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.14.24",
 		"minecraft": "~1.18.2",
