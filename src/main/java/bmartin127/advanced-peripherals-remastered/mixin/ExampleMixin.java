@@ -1,4 +1,4 @@
-package name.modid.mixin;
+package bmartin127.advanced-peripherals-remastered.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

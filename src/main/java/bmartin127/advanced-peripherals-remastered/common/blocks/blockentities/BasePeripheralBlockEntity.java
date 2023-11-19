@@ -1,4 +1,4 @@
-package name.modid.common.blocks.blockentities;
+package bmartin127.advanced-peripherals-remastered.common.blocks.blockentities;
 
 
 import dan200.computercraft.api.peripheral.IComputerAccess;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import static name.modid.Advancedperipherals.LOGGER;
+import static bmartin127.advanced-peripherals-remastered.Advancedperipherals.LOGGER;
 
 
 public class BasePeripheralBlockEntity extends BlockEntity {

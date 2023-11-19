@@ -1,4 +1,4 @@
-package name.modid.common.item.pocket;
+package bmartin127.advanced-peripherals-remastered.common.item.pocket;
 
 
 import dan200.computercraft.api.peripheral.IPeripheral;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 
-import static name.modid.common.utl.StringUtil.pocket;
+import static bmartin127.advanced-peripherals-remastered.common.utl.StringUtil.pocket;
 
 public class BasePocketUpgrade extends AbstractPocketUpgrade{
 

@@ -1,10 +1,10 @@
-package name.modid.common.peripherals;
+package bmartin127.advanced-peripherals-remastered.common.peripherals;
 
 import dan200.computercraft.api.lua.LuaException;
 import dan200.computercraft.api.lua.LuaFunction;
 import dan200.computercraft.api.peripheral.IComputerAccess;
 import dan200.computercraft.api.peripheral.IPeripheral;
-import name.modid.common.blocks.blockentities.GeoScannerBlockEntity;
+import bmartin127.advanced-peripherals-remastered.common.blocks.blockentities.GeoScannerBlockEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.server.world.ServerWorld;

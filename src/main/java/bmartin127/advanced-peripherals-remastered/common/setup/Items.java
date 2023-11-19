@@ -1,12 +1,12 @@
-package name.modid.common.setup;
+package bmartin127.advanced-peripherals-remastered.common.setup;
 
-import name.modid.Advancedperipherals;
+import bmartin127.advanced-peripherals-remastered.Advancedperipherals;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import static name.modid.Advancedperipherals.MODID;
+import static bmartin127.advanced-peripherals-remastered.Advancedperipherals.MODID;
 public class Items {
 
     public static final Item CHUNK_CONTROLLER = registerItem("chunk_controller",

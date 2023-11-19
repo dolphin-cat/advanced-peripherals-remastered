@@ -1,7 +1,7 @@
-package name.modid;
+package bmartin127.advanced-peripherals-remastered;
 
 import net.fabricmc.api.ModInitializer;
-import name.modid.common.setup.Registration;
+import bmartin127.advanced-peripherals-remastered.common.setup.Registration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

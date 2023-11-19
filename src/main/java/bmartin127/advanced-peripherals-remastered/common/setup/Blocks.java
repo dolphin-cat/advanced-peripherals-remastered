@@ -1,8 +1,8 @@
-package name.modid.common.setup;
+package bmartin127.advanced-peripherals-remastered.common.setup;
 
 import dan200.computercraft.api.ComputerCraftAPI;
-import name.modid.Advancedperipherals;
-import name.modid.common.blocks.GeoScannerBlock;
+import bmartin127.advanced-peripherals-remastered.Advancedperipherals;
+import bmartin127.advanced-peripherals-remastered.common.blocks.GeoScannerBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -14,10 +14,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 
-import static name.modid.Advancedperipherals.LOGGER;
-import static name.modid.Advancedperipherals.MODID;
+import static bmartin127.advanced-peripherals-remastered.Advancedperipherals.LOGGER;
+import static bmartin127.advanced-peripherals-remastered.Advancedperipherals.MODID;
 
-import static name.modid.integrations.cc.AdvancedPeripheralsBlockEntityTypes.GEO_SCANNER_BLOCK_ENTITY;
+import static bmartin127.advanced-peripherals-remastered.integrations.cc.AdvancedPeripheralsBlockEntityTypes.GEO_SCANNER_BLOCK_ENTITY;
 
 
 public class Blocks {
