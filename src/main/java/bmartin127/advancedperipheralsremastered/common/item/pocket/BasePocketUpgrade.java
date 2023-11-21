@@ -12,17 +12,25 @@ import org.jetbrains.annotations.Nullable;
 
 import static bmartin127.advancedperipheralsremastered.common.utl.StringUtil.pocket;
 
-public class BasePocketUpgrade extends AbstractPocketUpgrade{
+public abstract class BasePocketUpgrade<T extends IPeripheral> extends AbstractPocketUpgrade{
+
+    private T peripheral;
 
 
     protected BasePocketUpgrade(Identifier id,  ItemStack stack) {
+
         super(id, pocket(id.getPath()) , stack);
     }
 
+    protected abstract T getPeripheral(IPocketAccess access);
 
 
+
+
+    @Nullable
     @Override
-    public IPeripheral createPeripheral(IPocketAccess iPocketAccess) {
-        return null;
+    public IPeripheral createPeripheral(@NotNull IPocketAccess access) {
+        peripheral = getPeripheral(access);
+        return peripheral;
     }
 }
