@@ -10,6 +10,7 @@ import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -61,6 +62,11 @@ public class Blocks {
         Item item = Registry.register(Registry.ITEM, new Identifier(MODID, name),
                 new BlockItem(block, new FabricItemSettings().group(group)));
         return registerBlockNoItem(name,block,group);
+
+    }
+    public static ItemStack getBlockItemStack(Block block) {
+        Item blockItem = Item.BLOCK_ITEMS.get(block);
+        return new ItemStack(blockItem);
     }
     public static void registerModBlocks() {
         LOGGER.info("Registering Blocks for " + MODID);

@@ -1,12 +1,14 @@
 package bmartin127.advancedperipheralsremastered.common.setup;
 
 import bmartin127.advancedperipheralsremastered.Advancedperipherals;
+import bmartin127.advancedperipheralsremastered.common.item.pocket.PocketGeoScannerUpgrade;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import static bmartin127.advancedperipheralsremastered.Advancedperipherals.MODID;
+
 public class Items {
 
     public static final Item CHUNK_CONTROLLER = registerItem("chunk_controller",
@@ -36,7 +38,7 @@ public class Items {
 
 
 
-    private static Item registerItem(String name, Item item) {
+    public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MODID, name), item);
     }
 
