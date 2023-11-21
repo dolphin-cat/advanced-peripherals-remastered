@@ -2,7 +2,7 @@ package bmartin127.advancedperipheralsremastered.common.setup;
 
 import dan200.computercraft.api.ComputerCraftAPI;
 import bmartin127.advancedperipheralsremastered.Advancedperipherals;
-import bmartin127.advancedperipheralsremastered.common.blocks.GeoScannerBlock;
+import bmartin127.advancedperipheralsremastered.common.blocks.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -23,7 +23,7 @@ import static bmartin127.advancedperipheralsremastered.integrations.cc.AdvancedP
 public class Blocks {
 
     public static final Block ENVIRONMENT_DETECTOR = registerBlock("environment_detector",
-            new GeoScannerBlock(FabricBlockSettings.of(Material.METAL)), ItemGroup.MISC);
+            new EnvironmentDetectorBlock(FabricBlockSettings.of(Material.METAL)), ItemGroup.MISC);
     public static final Block CHAT_BOX = registerBlock("chat_box",
             new GeoScannerBlock(FabricBlockSettings.of(Material.METAL)), ItemGroup.MISC);
     public static final Block PLAYER_DETECTOR = registerBlock("player_detector",

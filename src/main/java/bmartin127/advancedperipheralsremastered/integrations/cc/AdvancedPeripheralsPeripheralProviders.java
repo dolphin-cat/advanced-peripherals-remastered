@@ -12,8 +12,8 @@ import net.minecraft.world.World;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.BlockState;
 import bmartin127.advancedperipheralsremastered.AdvancedPeripheralsConfig;
-import bmartin127.advancedperipheralsremastered.common.blocks.blockentities.GeoScannerBlockEntity;
-import bmartin127.advancedperipheralsremastered.common.peripherals.GeoScannerPeripheral;
+import bmartin127.advancedperipheralsremastered.common.blocks.blockentities.*;
+import bmartin127.advancedperipheralsremastered.common.peripherals.*;
 
 
 import bmartin127.advancedperipheralsremastered.common.setup.Blocks;
@@ -37,6 +37,9 @@ public class AdvancedPeripheralsPeripheralProviders {
            if (be instanceof GeoScannerBlockEntity sensor &&
                     !AdvancedPeripheralsConfig.SERVER.ComputerCraft.disableComputerCraft) {
                 return new GeoScannerPeripheral(sensor);
+            } else if (be instanceof EnvironmentDetectorBlockEntity sensor &&
+                    !AdvancedPeripheralsConfig.SERVER.ComputerCraft.disableComputerCraft) {
+                return new EnvironmentDetectorPeripheral(sensor);
             }
 
             return null;
