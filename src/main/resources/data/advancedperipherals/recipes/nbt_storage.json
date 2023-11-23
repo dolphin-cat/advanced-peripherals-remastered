@@ -7,16 +7,16 @@
   ],
   "key": {
     "C": {
-      "tag": "minecraft:chests"
+      "tag": "c:chests"
     },
     "A": {
       "item": "advancedperipherals:peripheral_casing"
     },
     "R": {
-      "tag": "fabric:storage_blocks/redstone"
+      "tag": "c:redstone_blocks"
     },
     "I": {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:iron_ingots"
     }
   },
   "result": {

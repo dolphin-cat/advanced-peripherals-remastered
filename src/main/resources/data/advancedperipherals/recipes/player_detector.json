@@ -13,7 +13,7 @@
       "item": "advancedperipherals:peripheral_casing"
     },
     "R": {
-      "tag": "fabric:storage_blocks/redstone"
+      "tag": "c:redstone_blocks"
     }
   },
   "result": {

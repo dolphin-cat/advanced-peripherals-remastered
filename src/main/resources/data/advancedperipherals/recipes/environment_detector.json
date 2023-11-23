@@ -13,7 +13,7 @@
       "tag": "minecraft:saplings"
     },
     "C": {
-      "tag": "fabric:crops"
+      "tag": "c:crops"
     },
     "A": {
       "item": "advancedperipherals:peripheral_casing"
