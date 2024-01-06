@@ -46,7 +46,7 @@ public class EnvironmentDetectorPeripheral implements IPeripheral {
 
     @LuaFunction(mainThread = true)
     public final int getDayLightLevel() {
-        int i = level.getLightLevel(LightType.SKY, pos.up()) - level.getStarBrightness();
+        int i = level.getLightLevel(LightType.SKY, pos.up()) - level.getAmbientDarkness();
         float f = level.getSkyAngleRadians(1.0F);
         if (i > 0) {
             float f1 = f < (float) Math.PI ? 0.0F : ((float) Math.PI * 2F);

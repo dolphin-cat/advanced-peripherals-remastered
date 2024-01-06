@@ -20,4 +20,9 @@ public class AdvancedPeripheralsBlockEntityTypes {
             new Identifier(MODID, "environment_detector"),
             FabricBlockEntityTypeBuilder.create(EnvironmentDetectorBlockEntity::new, ENVIRONMENT_DETECTOR).build()
     );
+    public static final BlockEntityType<RedstoneIntegratorBlockEntity> REDSTONE_INTEGRATOR_BLOCK_ENTITY = Registry.register(
+            Registry.BLOCK_ENTITY_TYPE,
+            new Identifier(MODID, "redstone_integrator"),
+            FabricBlockEntityTypeBuilder.create(RedstoneIntegratorBlockEntity::new, REDSTONE_INTEGRATOR).build()
+    );
 }

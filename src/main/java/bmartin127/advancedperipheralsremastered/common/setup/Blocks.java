@@ -40,7 +40,7 @@ public class Blocks {
     public static final Block INVENTORY_MANAGER = registerBlock("inventory_manager",
             new GeoScannerBlock(FabricBlockSettings.of(Material.METAL)), ItemGroup.MISC);
     public static final Block REDSTONE_INTEGRATOR = registerBlock("redstone_integrator",
-            new GeoScannerBlock(FabricBlockSettings.of(Material.METAL)), ItemGroup.MISC);
+            new RedstoneIntegratorBlock(FabricBlockSettings.of(Material.METAL)), ItemGroup.MISC);
     public static final Block BLOCK_READER = registerBlock("block_reader",
             new GeoScannerBlock(FabricBlockSettings.of(Material.METAL)), ItemGroup.MISC);
     public static final Block GEO_SCANNER = registerBlock("geo_scanner",

@@ -34,12 +34,12 @@ public class AdvancedPeripheralsPeripheralProviders {
             BlockEntity be = level.getBlockEntity(blockPos);
             if (AdvancedPeripheralsConfig.SERVER.ComputerCraft.disableComputerCraft) return null;
 
-           if (be instanceof GeoScannerBlockEntity sensor &&
-                    !AdvancedPeripheralsConfig.SERVER.ComputerCraft.disableComputerCraft) {
+            if (be instanceof GeoScannerBlockEntity sensor) {
                 return new GeoScannerPeripheral(sensor);
-            } else if (be instanceof EnvironmentDetectorBlockEntity sensor &&
-                    !AdvancedPeripheralsConfig.SERVER.ComputerCraft.disableComputerCraft) {
+            } else if (be instanceof EnvironmentDetectorBlockEntity sensor) {
                 return new EnvironmentDetectorPeripheral(sensor);
+            } else if (be instanceof RedstoneIntegratorBlockEntity sensor) {
+                return new RedstoneIntegratorPeripheral(sensor);
             }
 
             return null;
