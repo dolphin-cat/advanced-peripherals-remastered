@@ -7,16 +7,16 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:iron_ingots"
     },
     "W": {
-      "tag": "fabric:glass/white"
+      "item": "minecraft:white_stained_glass"
     },
     "O": {
       "item": "minecraft:observer"
     },
     "G": {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:gold_ingots"
     }
   },
   "result": {

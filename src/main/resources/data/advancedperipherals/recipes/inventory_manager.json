@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:iron_ingots"
     },
     "C": {
-      "tag": "fabric:chests"
+      "tag": "c:chests"
     },
     "A": {
       "item": "advancedperipherals:peripheral_casing"

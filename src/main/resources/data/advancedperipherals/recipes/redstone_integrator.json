@@ -7,7 +7,7 @@
   ],
   "key": {
     "R": {
-      "tag": "fabric:storage_blocks/redstone"
+      "tag": "c:redstone_blocks"
     },
     "A": {
       "item": "advancedperipherals:peripheral_casing"

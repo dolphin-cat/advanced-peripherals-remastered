@@ -10,13 +10,13 @@
       "item": "minecraft:observer"
     },
     "I": {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:iron_ingots"
     },
     "M": {
       "item": "computercraft:wired_modem_full"
     },
     "R": {
-      "tag": "fabric:storage_blocks/redstone"
+      "tag": "c:redstone_blocks"
     },
     "A": {
       "item": "advancedperipherals:peripheral_casing"
